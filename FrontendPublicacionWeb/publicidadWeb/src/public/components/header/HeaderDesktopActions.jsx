@@ -1,4 +1,5 @@
 // src/components/header/HeaderDesktopActions.jsx
+import { Link } from "react-router-dom";
 export default function HeaderDesktopActions({
   user,
   menuUserOpen,
@@ -10,8 +11,12 @@ export default function HeaderDesktopActions({
     <div className="actions-desktop">
       {!user ? (
         <>
-          <a href="/login" className="ct-btn">Iniciar sesión</a>
-          <a href="/register" className="ct-btn primary">Registrarse</a>
+          <a href="/login" className="ct-btn">
+            Iniciar sesión
+          </a>
+          <a href="/register" className="ct-btn primary">
+            Registrarse
+          </a>
         </>
       ) : (
         // ancho fijo para que el drop y el disparador coincidan
@@ -28,7 +33,10 @@ export default function HeaderDesktopActions({
           </button>
 
           {menuUserOpen && (
-            <ul role="menu" className="user-menu list-unstyled mt-2 mb-0 p-0 w-100 text-center">
+            <ul
+              role="menu"
+              className="user-menu list-unstyled mt-2 mb-0 p-0 w-100 text-center"
+            >
               {/* email (solo mostrar) — mismo tamaño */}
               <li className="mb-2">
                 <a
@@ -50,16 +58,27 @@ export default function HeaderDesktopActions({
                   className="user-menu-link d-block w-100 text-center py-2 rounded-3"
                   onClick={(e) => {
                     e.preventDefault();
-                    toggleUserMenu();     // cerrar menú
-                    onOpenProfile?.();    // abrir modal (siguiente paso)
+                    toggleUserMenu(); // cerrar menú
+                    onOpenProfile?.(); // abrir modal (siguiente paso)
                   }}
                 >
                   Editar perfil
                 </a>
               </li>
 
+              {user?.role === "ADMIN" && (
+                <li className="my-2">
+                  <Link
+                    to="/admin/dashboard"
+                    className="btn w-100  text-white shadow-sm mb-2"
+                  >
+                    Panel de Administración
+                  </Link>
+                </li>
+              )}
+
               {/* cerrar sesión — forzado rojo (Bootstrap danger) sin cambiar tus clases */}
-              <li >
+              <li>
                 <a
                   href="#"
                   role="menuitem"
@@ -69,8 +88,8 @@ export default function HeaderDesktopActions({
                     handleLogout();
                   }}
                   style={{
-                    backgroundColor: "var(--bs-danger)",  
-                    color: "#fff"
+                    backgroundColor: "var(--bs-danger)",
+                    color: "#fff",
                   }}
                 >
                   Cerrar sesión

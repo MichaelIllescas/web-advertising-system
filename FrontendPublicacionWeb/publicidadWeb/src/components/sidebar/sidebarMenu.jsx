@@ -15,6 +15,10 @@ export const sidebarSections = [
     title: "Inicio",
     path: "/admin/dashboard",
     icon: <FaHome />,
+  },{
+    title: "Ir a Home Page",
+    path: "/",
+    icon: <FaHome />,
   },
   {
     title: "Gestión de Prestadores",
@@ -48,5 +52,7 @@ export const sidebarSections = [
       { title: "Usuarios", path: "/usuarios", icon: <FaUserCircle /> },
       { title: "Crear Usuario", path: "/usuarios/registrar", icon: <FaPlus /> }
     ]
-  }
+  },
+
+    
 ];

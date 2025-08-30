@@ -12,7 +12,7 @@ export default function AdminProfile({ initialName = "admin", initialEmail = "ad
 
   // 🔹 Tomamos el usuario REAL del AuthContext para iniciar el form con su nombre/email.
   //    Si no hay user aún, cae en los valores por defecto recibidos por props.
-  const { user: authUser, login } = useAuth();
+  const { user: authUser, getProfile } = useAuth();
 
   const {
     name, setName,
@@ -45,7 +45,7 @@ export default function AdminProfile({ initialName = "admin", initialEmail = "ad
       // refresca el contexto para que el sidebar se actualice sin F5
       try {
         const fresh = await getUserSession();
-        login(fresh);
+        getProfile(fresh);
       } catch {}
 
       Swal.fire({

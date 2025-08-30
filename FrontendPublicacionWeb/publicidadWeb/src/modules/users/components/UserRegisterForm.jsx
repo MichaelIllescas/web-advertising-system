@@ -37,10 +37,14 @@ export default function UserRegisterForm({
       noValidate
     >
       <h2 className="mb-3">Registrar usuario</h2>
+
+      {/* Email */}
       <div className="mb-3">
         <label className="form-label">Email</label>
         <input
-          className={`form-control${touched.email && validation.email ? " is-invalid" : ""}`}
+          className={`form-control${
+            touched.email && validation.email ? " is-invalid" : ""
+          }`}
           type="email"
           name="email"
           value={form.email}
@@ -52,10 +56,14 @@ export default function UserRegisterForm({
           <div className="invalid-feedback">{validation.email}</div>
         )}
       </div>
+
+      {/* Username */}
       <div className="mb-3">
         <label className="form-label">Nombre de usuario</label>
         <input
-          className={`form-control${touched.username && validation.username ? " is-invalid" : ""}`}
+          className={`form-control${
+            touched.username && validation.username ? " is-invalid" : ""
+          }`}
           type="text"
           name="username"
           value={form.username}
@@ -67,11 +75,15 @@ export default function UserRegisterForm({
           <div className="invalid-feedback">{validation.username}</div>
         )}
       </div>
+
+      {/* Password */}
       <div className="mb-3">
         <label className="form-label">Contraseña</label>
         <div className="input-group">
           <input
-            className={`form-control${touched.password && validation.password ? " is-invalid" : ""}`}
+            className={`form-control${
+              touched.password && validation.password ? " is-invalid" : ""
+            }`}
             type={showPassword ? "text" : "password"}
             name="password"
             value={form.password}
@@ -93,11 +105,17 @@ export default function UserRegisterForm({
           <div className="invalid-feedback d-block">{validation.password}</div>
         )}
       </div>
+
+      {/* Repeat Password */}
       <div className="mb-3">
         <label className="form-label">Repetir contraseña</label>
         <div className="input-group">
           <input
-            className={`form-control${touched.repeatPassword && validation.repeatPassword ? " is-invalid" : ""}`}
+            className={`form-control${
+              touched.repeatPassword && validation.repeatPassword
+                ? " is-invalid"
+                : ""
+            }`}
             type={showRepeat ? "text" : "password"}
             name="repeatPassword"
             value={form.repeatPassword}
@@ -116,10 +134,36 @@ export default function UserRegisterForm({
           </button>
         </div>
         {touched.repeatPassword && validation.repeatPassword && (
-          <div className="invalid-feedback d-block">{validation.repeatPassword}</div>
+          <div className="invalid-feedback d-block">
+            {validation.repeatPassword}
+          </div>
         )}
       </div>
+
+      {/* Errores generales */}
       {error && <div className="alert alert-danger">{error}</div>}
+
+      {/* Role */}
+      <div className="mb-3">
+        <label className="form-label">Rol</label>
+        <select
+          className={`form-select${
+            touched.role && validation.role ? " is-invalid" : ""
+          }`}
+          name="role"
+          value={form.role}
+          onChange={handleChange}
+          onBlur={handleBlur}
+        >
+          <option value="USER">USER</option>
+          <option value="ADMIN">ADMIN</option>
+        </select>
+        {touched.role && validation.role && (
+          <div className="invalid-feedback d-block">{validation.role}</div>
+        )}
+      </div>
+
+      {/* Submit */}
       <button
         className="btn btn-primary"
         type="submit"

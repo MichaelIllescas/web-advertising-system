@@ -2,6 +2,7 @@ package com.example.backend.users.service.implement;
 
 import com.example.backend.shared.exceptions.UserRegisterException;
 import com.example.backend.users.controller.dto.UserRequestDTO;
+import com.example.backend.users.domain.Role;
 import com.example.backend.users.domain.User;
 import com.example.backend.users.infrastructure.UserRepository;
 import com.example.backend.users.service.mapper.UserMapper;
@@ -43,8 +44,12 @@ public class RegisterUser implements RegisterUserUseCase {
             throw new UserRegisterException("El nombre de usuario " + userRequest.getUsername() + " ya está registrado.");
         }
 
+
+        System.out.println(userRequest.getRole());
+
         // Crear usuario nuevo
         User user = userMapper.toEntity(userRequest);
+        user.setRole(Role.valueOf(userRequest.getRole()));
         log.debug("Usuario mapeado desde DTO: {}", user);
 
         // Encriptar contraseña

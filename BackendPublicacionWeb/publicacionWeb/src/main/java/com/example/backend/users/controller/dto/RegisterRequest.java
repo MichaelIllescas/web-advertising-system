@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class RegisterRequest {
+public class    RegisterRequest {
 
     @NotBlank(message = "El email no puede estar vacío.")
     @Email(message = "El email debe ser válido.")
@@ -26,4 +26,6 @@ public class RegisterRequest {
     @NotBlank(message = "La contraseña no puede estar vacía.")
     @Size(min = 8, message = "La contraseña debe tener al menos 8 caracteres.")
     private String password;
+
+    private String role;
 }

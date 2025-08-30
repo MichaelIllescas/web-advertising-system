@@ -24,7 +24,7 @@ const useRegister = () => {
     return null;
   };
 
-  const handleRegister = async (email, username, password, confirmPassword) => {
+  const handleRegister = async (email, username, password, confirmPassword, role) => {
     setLoading(true);
     setError("");
     const validationError = validateForm(email, username, password, confirmPassword);
@@ -35,16 +35,21 @@ const useRegister = () => {
     }
 
     try {
-      await authService.register({ email, username, password });
+      // 👇 ahora enviamos el role en el payload
+      await authService.register({ 
+        email, 
+        username, 
+        password, 
+        role 
+      });
 
-      // ✅ Mostrar SweetAlert al éxito
       Swal.fire({
         icon: "success",
         title: "¡Registro exitoso!",
         text: "Ahora puedes iniciar sesión con tus credenciales.",
         confirmButtonText: "Ir al login",
       }).then(() => {
-        navigate("/login"); // Redirige después de aceptar
+        navigate("/login");
       });
 
     } catch (err) {

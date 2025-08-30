@@ -50,6 +50,7 @@ export default function UserActionsModal({ open, user, onClose, onSave }) {
         await updateAdminProfile(form.id, {
           email: form.email,
           username: form.username,
+          role: form.role
         });
       }
 

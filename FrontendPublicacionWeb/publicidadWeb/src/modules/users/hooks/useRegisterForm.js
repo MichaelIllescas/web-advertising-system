@@ -7,12 +7,13 @@ export default function useRegisterForm() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
+  const [role, setRole] = useState("USER");
 
   const { loading, error, handleRegister } = useRegister();
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    const user = await handleRegister(email, username, password, confirmPassword);
+    const user = await handleRegister(email, username, password, confirmPassword, role);
     if (user) {
       console.log("Registro exitoso:", user);
       // Redirigir o mostrar confirmación
@@ -25,6 +26,7 @@ export default function useRegisterForm() {
     password, setPassword,
     confirmPassword, setConfirmPassword,
     showPassword, setShowPassword,
+    role, setRole,
     loading, error,
     onSubmit
   };

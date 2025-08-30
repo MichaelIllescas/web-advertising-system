@@ -27,7 +27,6 @@ public class UserMapper {
                 .email(dto.getEmail())
                 .username(dto.getUsername())
                 .password(dto.getPassword())
-                .role(Role.USER)
                 .enabled(true)
                 .build();
     }

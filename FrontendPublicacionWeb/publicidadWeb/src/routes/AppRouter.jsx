@@ -15,6 +15,7 @@ import ProviderListPage from "../modules/providers/pages/ProviderListPage.jsx";
 import RecoverPasswordPage from "../modules/users/pages/RecoverPasswordPage.jsx";
 import ResetPasswordPage from "../modules/users/pages/ResetPasswordPage.jsx";
 import ProviderRatingsPage from '../modules/admin/pages/ProviderRatingsPage.jsx'
+import AdminProfilePage from "../modules/admin/pages/AdminProfilePage.jsx";
 
 const AppRouter = () => (
   <Routes>
@@ -113,6 +114,19 @@ const AppRouter = () => (
         </PrivateRoute>
       }
     />
+    <Route
+      path="/admin/perfil"
+      element={
+        <PrivateRoute requiredRole="ADMIN">
+          <MainLayout>
+            <AdminProfilePage />
+          </MainLayout>
+        </PrivateRoute>
+      }
+    />
+
+
+    
 
     {/* ...más rutas */}
     <Route path="*" element={<Navigate to="/" replace />} />

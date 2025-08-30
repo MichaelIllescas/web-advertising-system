@@ -9,7 +9,8 @@ export default function useRegisterUser() {
     email: "",
     username: "",
     password: "",
-    repeatPassword: "",
+    repeatPassword: "", 
+    role: "USER"
   });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -62,6 +63,7 @@ export default function useRegisterUser() {
         email: form.email,
         username: form.username,
         password: form.password,
+        role: form.role
       });
       setForm({
         email: "",
@@ -74,11 +76,11 @@ export default function useRegisterUser() {
         title: "¡Registro exitoso!",
         text: "Usuario creado correctamente. Ahora puedes iniciar sesión.",
         icon: "success",
-        confirmButtonText: "Ir al login",
+        confirmButtonText: "Aceptar",
         allowOutsideClick: false,
         allowEscapeKey: false,
       });
-      navigate("/login");
+     
     } catch (err) {
       setError(
         err?.response?.data?.error ||

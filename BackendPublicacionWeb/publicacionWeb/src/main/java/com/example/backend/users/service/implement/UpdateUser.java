@@ -51,8 +51,8 @@ public class UpdateUser implements UpdateUserUsecase {
 
         user.setEmail(userRequest.getEmail());
         user.setUsername(userRequest.getUsername());
-        user.setRole(Role.USER);
 
+        user.setRole(Role.valueOf(userRequest.getRole()));
         userRepository.save(user);
 
         log.info("Usuario con ID {} actualizado exitosamente", id);

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3085c9c5-1d91-49dd-977d-3b5b3a81d65f" name="Changes" comment="" />
+    <list default="true" id="3085c9c5-1d91-49dd-977d-3b5b3a81d65f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Diseño/~$delo Datos basico en texto .docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diseño/~$iorizacion Historias Usuario .docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diseño/~$quitectura Backend.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diseño/~$storias Usuario Tareas con Rubros.docx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,18 +40,67 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PublicidadWebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inicio.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;jose&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SPRINGBOOT/publicacionWebApp/BackendPublicacionWeb&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PublicidadWebApplication.executor": "Run",
+    "Application.clasificados.executor": "Run",
+    "Application.clasifitrenque.executor": "Run",
+    "Application.inicio.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "michael",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jonii/OneDrive/Escritorio/Proyectos/MONOLITOS/SISTEMA DE PUBLICIDAD/Publicidad-Web/BackendPublicacionWeb",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonii\OneDrive\Escritorio\Proyectos\MONOLITOS\SISTEMA DE PUBLICIDAD\Publicidad-Web\BackendPublicacionWeb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.clasificados">
+    <configuration name="clasificados" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.backend.PublicidadWebApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clasifitrenque" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.backend.PublicidadWebApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.clasifitrenque" />
+      <item itemvalue="Application.clasificados" />
+    </list>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3085c9c5-1d91-49dd-977d-3b5b3a81d65f" name="Changes" comment="" />
