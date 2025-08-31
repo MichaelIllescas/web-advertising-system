@@ -7804,3 +7804,273 @@ java.lang.NullPointerException: Name is null
 2025-08-30 15:13:39 [http-nio-8080-exec-4] INFO  c.e.b.u.s.implement.LogoutService - Cookie de autenticación eliminada correctamente. Logout exitoso.
 2025-08-30 15:13:39 [http-nio-8080-exec-4] INFO  c.e.b.u.c.controllers.AuthController - Logout exitoso
 2025-08-30 15:13:39 [http-nio-8080-exec-4] INFO  c.e.b.s.logging.RequestLoggingFilter - [POST] /auth/logout -> 200 (1 ms)
+2025-08-30 15:22:53 [http-nio-8080-exec-9] INFO  c.e.b.c.c.c.CategoryController - Petición recibida para listar todas las categorías
+2025-08-30 15:22:53 [http-nio-8080-exec-9] INFO  c.e.b.c.service.CategoryService - Recuperando todas las categorías...
+2025-08-30 15:22:53 [http-nio-8080-exec-9] INFO  c.e.b.c.s.i.GetAllCategories - → [GetAllCategories] Solicitud para obtener todas las categorías ordenadas por nombre
+2025-08-30 15:22:53 [http-nio-8080-exec-5] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:22:53 [http-nio-8080-exec-5] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:22:53 [http-nio-8080-exec-9] INFO  c.e.b.c.s.i.GetAllCategories - ✓ [GetAllCategories] Se recuperaron 5 categorías
+2025-08-30 15:22:53 [http-nio-8080-exec-9] INFO  c.e.b.c.service.CategoryService - Se recuperaron 5 categorías
+2025-08-30 15:22:53 [http-nio-8080-exec-9] INFO  c.e.b.c.c.c.CategoryController - Se recuperaron 5 categorías
+2025-08-30 15:22:53 [http-nio-8080-exec-9] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/categories/getAll -> 200 (8 ms)
+2025-08-30 15:22:53 [http-nio-8080-exec-7] INFO  c.e.b.c.c.c.CategoryController - Petición recibida para listar todas las categorías
+2025-08-30 15:22:53 [http-nio-8080-exec-7] INFO  c.e.b.c.service.CategoryService - Recuperando todas las categorías...
+2025-08-30 15:22:53 [http-nio-8080-exec-7] INFO  c.e.b.c.s.i.GetAllCategories - → [GetAllCategories] Solicitud para obtener todas las categorías ordenadas por nombre
+2025-08-30 15:22:53 [http-nio-8080-exec-5] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:22:53 [http-nio-8080-exec-5] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:22:53 [http-nio-8080-exec-7] INFO  c.e.b.c.s.i.GetAllCategories - ✓ [GetAllCategories] Se recuperaron 5 categorías
+2025-08-30 15:22:53 [http-nio-8080-exec-7] INFO  c.e.b.c.service.CategoryService - Se recuperaron 5 categorías
+2025-08-30 15:22:53 [http-nio-8080-exec-7] INFO  c.e.b.c.c.c.CategoryController - Se recuperaron 5 categorías
+2025-08-30 15:22:53 [http-nio-8080-exec-5] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (14 ms)
+2025-08-30 15:22:53 [http-nio-8080-exec-7] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/categories/getAll -> 200 (6 ms)
+2025-08-30 15:22:53 [http-nio-8080-exec-10] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:22:53 [http-nio-8080-exec-10] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:22:53 [http-nio-8080-exec-10] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:22:53 [http-nio-8080-exec-10] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:22:53 [http-nio-8080-exec-10] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (11 ms)
+2025-08-30 15:22:53 [http-nio-8080-exec-2] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:22:53 [http-nio-8080-exec-2] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:22:53 [http-nio-8080-exec-2] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:22:53 [http-nio-8080-exec-2] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:22:53 [http-nio-8080-exec-2] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (11 ms)
+2025-08-30 15:22:53 [http-nio-8080-exec-4] ERROR c.e.b.s.e.GlobalExceptionHandler - 🔥 Excepción no controlada: No static resource proveedores/14509d29-1818-4034-8ff2-ac7802cc9ddd.png.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource proveedores/14509d29-1818-4034-8ff2-ac7802cc9ddd.png.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.example.backend.shared.logging.RequestLoggingFilter.doFilterInternal(RequestLoggingFilter.java:29)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.example.backend.config.security.JwtCookieAuthenticationFilter.doFilterInternal(JwtCookieAuthenticationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-30 15:22:53 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource proveedores/14509d29-1818-4034-8ff2-ac7802cc9ddd.png.]
+2025-08-30 15:22:53 [http-nio-8080-exec-4] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /uploads/proveedores/14509d29-1818-4034-8ff2-ac7802cc9ddd.png -> 500 (5 ms)
+2025-08-30 15:28:36 [http-nio-8080-exec-3] INFO  c.e.b.c.c.c.CategoryController - Petición recibida para listar todas las categorías
+2025-08-30 15:28:36 [http-nio-8080-exec-3] INFO  c.e.b.c.service.CategoryService - Recuperando todas las categorías...
+2025-08-30 15:28:36 [http-nio-8080-exec-3] INFO  c.e.b.c.s.i.GetAllCategories - → [GetAllCategories] Solicitud para obtener todas las categorías ordenadas por nombre
+2025-08-30 15:28:36 [http-nio-8080-exec-9] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:28:36 [http-nio-8080-exec-9] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:28:36 [http-nio-8080-exec-3] INFO  c.e.b.c.s.i.GetAllCategories - ✓ [GetAllCategories] Se recuperaron 5 categorías
+2025-08-30 15:28:36 [http-nio-8080-exec-3] INFO  c.e.b.c.service.CategoryService - Se recuperaron 5 categorías
+2025-08-30 15:28:36 [http-nio-8080-exec-3] INFO  c.e.b.c.c.c.CategoryController - Se recuperaron 5 categorías
+2025-08-30 15:28:36 [http-nio-8080-exec-3] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/categories/getAll -> 200 (8 ms)
+2025-08-30 15:28:36 [http-nio-8080-exec-10] INFO  c.e.b.c.c.c.CategoryController - Petición recibida para listar todas las categorías
+2025-08-30 15:28:36 [http-nio-8080-exec-10] INFO  c.e.b.c.service.CategoryService - Recuperando todas las categorías...
+2025-08-30 15:28:36 [http-nio-8080-exec-10] INFO  c.e.b.c.s.i.GetAllCategories - → [GetAllCategories] Solicitud para obtener todas las categorías ordenadas por nombre
+2025-08-30 15:28:36 [http-nio-8080-exec-9] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:28:36 [http-nio-8080-exec-9] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:28:36 [http-nio-8080-exec-10] INFO  c.e.b.c.s.i.GetAllCategories - ✓ [GetAllCategories] Se recuperaron 5 categorías
+2025-08-30 15:28:36 [http-nio-8080-exec-10] INFO  c.e.b.c.service.CategoryService - Se recuperaron 5 categorías
+2025-08-30 15:28:36 [http-nio-8080-exec-9] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (13 ms)
+2025-08-30 15:28:36 [http-nio-8080-exec-10] INFO  c.e.b.c.c.c.CategoryController - Se recuperaron 5 categorías
+2025-08-30 15:28:36 [http-nio-8080-exec-10] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/categories/getAll -> 200 (6 ms)
+2025-08-30 15:28:36 [http-nio-8080-exec-2] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:28:36 [http-nio-8080-exec-2] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:28:36 [http-nio-8080-exec-2] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:28:36 [http-nio-8080-exec-2] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:28:36 [http-nio-8080-exec-2] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (24 ms)
+2025-08-30 15:28:36 [http-nio-8080-exec-4] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:28:36 [http-nio-8080-exec-4] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:28:36 [http-nio-8080-exec-4] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:28:36 [http-nio-8080-exec-4] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:28:36 [http-nio-8080-exec-4] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (16 ms)
+2025-08-30 15:28:36 [http-nio-8080-exec-8] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /uploads/proveedores/14509d29-1818-4034-8ff2-ac7802cc9ddd.png -> 200 (4 ms)
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.u.c.controllers.AuthController - Intento de login para usuario: admin@admin.com
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.u.s.implement.LoginService - Intentando autenticar usuario con email: admin@admin.com
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.u.s.i.AuthenticationServiceImpl - Último login actualizado para usuario id=1, email=admin@admin.com
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.config.security.JwtService - Se generó un nuevo token para el usuario [admin@admin.com], rol: ADMIN
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.u.s.i.AuthenticationServiceImpl - JWT generado exitosamente para usuario id=1
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.u.s.implement.LoginService - Cookie de autenticación creada y añadida a la respuesta para usuario admin@admin.com
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.u.s.implement.GetUserByEmail - Usuario encontrado con email: admin@admin.com
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.u.s.implement.LoginService - Usuario admin@admin.com autenticado exitosamente con ID 1
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.u.c.controllers.AuthController - Login exitoso para usuario: admin@admin.com
+2025-08-30 15:28:52 [http-nio-8080-exec-7] INFO  c.e.b.s.logging.RequestLoggingFilter - [POST] /auth/login -> 200 (80 ms)
+2025-08-30 15:28:52 [http-nio-8080-exec-3] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:28:52 [http-nio-8080-exec-3] INFO  c.e.b.a.c.c.DashboardController - Iniciando consulta de métricas para dashboard
+2025-08-30 15:28:52 [http-nio-8080-exec-3] INFO  c.e.b.a.c.c.DashboardController - Consulta completada -> Proveedores: 1, Categorías: 5, Usuarios: 13, Promedio: 0.0
+2025-08-30 15:28:52 [http-nio-8080-exec-3] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /dashboard/metrics -> 200 (14 ms)
+2025-08-30 15:28:52 [http-nio-8080-exec-3] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:28:52 [http-nio-8080-exec-3] INFO  c.e.b.a.c.c.DashboardController - Iniciando consulta de métricas para dashboard
+2025-08-30 15:28:52 [http-nio-8080-exec-3] INFO  c.e.b.a.c.c.DashboardController - Consulta completada -> Proveedores: 1, Categorías: 5, Usuarios: 13, Promedio: 0.0
+2025-08-30 15:28:52 [http-nio-8080-exec-3] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /dashboard/metrics -> 200 (14 ms)
+2025-08-30 15:28:55 [http-nio-8080-exec-2] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:28:55 [http-nio-8080-exec-2] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:28:55 [http-nio-8080-exec-2] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:28:55 [http-nio-8080-exec-2] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:28:55 [http-nio-8080-exec-2] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (11 ms)
+2025-08-30 15:28:55 [http-nio-8080-exec-10] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:28:55 [http-nio-8080-exec-10] INFO  c.e.b.c.c.c.CategoryController - Petición recibida para listar todas las categorías
+2025-08-30 15:28:55 [http-nio-8080-exec-10] INFO  c.e.b.c.service.CategoryService - Recuperando todas las categorías...
+2025-08-30 15:28:55 [http-nio-8080-exec-10] INFO  c.e.b.c.s.i.GetAllCategories - → [GetAllCategories] Solicitud para obtener todas las categorías ordenadas por nombre
+2025-08-30 15:28:55 [http-nio-8080-exec-4] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:28:55 [http-nio-8080-exec-4] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:28:55 [http-nio-8080-exec-10] INFO  c.e.b.c.s.i.GetAllCategories - ✓ [GetAllCategories] Se recuperaron 5 categorías
+2025-08-30 15:28:55 [http-nio-8080-exec-10] INFO  c.e.b.c.service.CategoryService - Se recuperaron 5 categorías
+2025-08-30 15:28:55 [http-nio-8080-exec-10] INFO  c.e.b.c.c.c.CategoryController - Se recuperaron 5 categorías
+2025-08-30 15:28:55 [http-nio-8080-exec-10] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/categories/getAll -> 200 (6 ms)
+2025-08-30 15:28:55 [http-nio-8080-exec-4] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:28:55 [http-nio-8080-exec-4] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:28:55 [http-nio-8080-exec-4] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (11 ms)
+2025-08-30 15:28:55 [http-nio-8080-exec-1] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:28:55 [http-nio-8080-exec-1] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:28:55 [http-nio-8080-exec-8] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:28:55 [http-nio-8080-exec-8] INFO  c.e.b.c.c.c.CategoryController - Petición recibida para listar todas las categorías
+2025-08-30 15:28:55 [http-nio-8080-exec-8] INFO  c.e.b.c.service.CategoryService - Recuperando todas las categorías...
+2025-08-30 15:28:55 [http-nio-8080-exec-8] INFO  c.e.b.c.s.i.GetAllCategories - → [GetAllCategories] Solicitud para obtener todas las categorías ordenadas por nombre
+2025-08-30 15:28:55 [http-nio-8080-exec-6] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:28:55 [http-nio-8080-exec-1] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:28:55 [http-nio-8080-exec-1] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:28:55 [http-nio-8080-exec-1] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (12 ms)
+2025-08-30 15:28:55 [http-nio-8080-exec-6] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /uploads/proveedores/14509d29-1818-4034-8ff2-ac7802cc9ddd.png -> 200 (4 ms)
+2025-08-30 15:28:55 [http-nio-8080-exec-8] INFO  c.e.b.c.s.i.GetAllCategories - ✓ [GetAllCategories] Se recuperaron 5 categorías
+2025-08-30 15:28:55 [http-nio-8080-exec-8] INFO  c.e.b.c.service.CategoryService - Se recuperaron 5 categorías
+2025-08-30 15:28:55 [http-nio-8080-exec-8] INFO  c.e.b.c.c.c.CategoryController - Se recuperaron 5 categorías
+2025-08-30 15:28:55 [http-nio-8080-exec-8] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/categories/getAll -> 200 (8 ms)
+2025-08-30 15:29:54 [http-nio-8080-exec-10] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:29:54 [http-nio-8080-exec-10] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:29:54 [http-nio-8080-exec-10] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:29:54 [http-nio-8080-exec-10] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:29:54 [http-nio-8080-exec-2] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:29:54 [http-nio-8080-exec-4] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:29:54 [http-nio-8080-exec-10] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (18 ms)
+2025-08-30 15:29:54 [http-nio-8080-exec-2] INFO  c.e.b.c.c.c.CategoryController - Petición recibida para listar todas las categorías
+2025-08-30 15:29:54 [http-nio-8080-exec-4] INFO  c.e.b.u.c.controllers.AuthController - Obteniendo sesión actual
+2025-08-30 15:29:54 [http-nio-8080-exec-2] INFO  c.e.b.c.service.CategoryService - Recuperando todas las categorías...
+2025-08-30 15:29:54 [http-nio-8080-exec-2] INFO  c.e.b.c.s.i.GetAllCategories - → [GetAllCategories] Solicitud para obtener todas las categorías ordenadas por nombre
+2025-08-30 15:29:54 [http-nio-8080-exec-1] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:29:54 [http-nio-8080-exec-1] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:29:54 [http-nio-8080-exec-2] INFO  c.e.b.c.s.i.GetAllCategories - ✓ [GetAllCategories] Se recuperaron 5 categorías
+2025-08-30 15:29:54 [http-nio-8080-exec-2] INFO  c.e.b.c.service.CategoryService - Se recuperaron 5 categorías
+2025-08-30 15:29:54 [http-nio-8080-exec-2] INFO  c.e.b.c.c.c.CategoryController - Se recuperaron 5 categorías
+2025-08-30 15:29:54 [http-nio-8080-exec-2] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/categories/getAll -> 200 (8 ms)
+2025-08-30 15:29:54 [http-nio-8080-exec-4] INFO  c.e.b.u.s.implement.GetUserSession - Sesión válida encontrada. Usuario autenticado: id=1, email=admin@admin.com
+2025-08-30 15:29:54 [http-nio-8080-exec-4] INFO  c.e.b.u.c.controllers.AuthController - Sesión obtenida para usuario: admin@admin.com
+2025-08-30 15:29:54 [http-nio-8080-exec-4] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /auth/me -> 200 (11 ms)
+2025-08-30 15:29:54 [http-nio-8080-exec-1] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:29:54 [http-nio-8080-exec-1] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:29:54 [http-nio-8080-exec-1] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (14 ms)
+2025-08-30 15:29:54 [http-nio-8080-exec-6] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:29:54 [http-nio-8080-exec-6] INFO  c.e.b.c.c.c.CategoryController - Petición recibida para listar todas las categorías
+2025-08-30 15:29:54 [http-nio-8080-exec-6] INFO  c.e.b.c.service.CategoryService - Recuperando todas las categorías...
+2025-08-30 15:29:54 [http-nio-8080-exec-6] INFO  c.e.b.c.s.i.GetAllCategories - → [GetAllCategories] Solicitud para obtener todas las categorías ordenadas por nombre
+2025-08-30 15:29:54 [http-nio-8080-exec-8] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:29:54 [http-nio-8080-exec-8] INFO  c.e.b.u.c.controllers.AuthController - Obteniendo sesión actual
+2025-08-30 15:29:54 [http-nio-8080-exec-6] INFO  c.e.b.c.s.i.GetAllCategories - ✓ [GetAllCategories] Se recuperaron 5 categorías
+2025-08-30 15:29:54 [http-nio-8080-exec-6] INFO  c.e.b.c.service.CategoryService - Se recuperaron 5 categorías
+2025-08-30 15:29:54 [http-nio-8080-exec-6] INFO  c.e.b.c.c.c.CategoryController - Se recuperaron 5 categorías
+2025-08-30 15:29:54 [http-nio-8080-exec-6] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/categories/getAll -> 200 (6 ms)
+2025-08-30 15:29:54 [http-nio-8080-exec-8] INFO  c.e.b.u.s.implement.GetUserSession - Sesión válida encontrada. Usuario autenticado: id=1, email=admin@admin.com
+2025-08-30 15:29:54 [http-nio-8080-exec-8] INFO  c.e.b.u.c.controllers.AuthController - Sesión obtenida para usuario: admin@admin.com
+2025-08-30 15:29:54 [http-nio-8080-exec-8] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /auth/me -> 200 (10 ms)
+2025-08-30 15:29:54 [http-nio-8080-exec-5] INFO  c.e.b.p.c.c.ProviderController - → [ProviderController] Solicitud para listar proveedores paginados | page=0 | size=5
+2025-08-30 15:29:54 [http-nio-8080-exec-5] INFO  c.e.b.p.service.ProviderService - → [ProviderService] Iniciando recuperación de prestadores | página=0 | size=5
+2025-08-30 15:29:54 [http-nio-8080-exec-5] INFO  c.e.b.p.service.ProviderService - ✓ [ProviderService] Recuperados 1 prestadores | página=0 de 1 | totalElements=1
+2025-08-30 15:29:54 [http-nio-8080-exec-5] INFO  c.e.b.p.c.c.ProviderController - ✓ [ProviderController] Se recuperaron 1 proveedores en la página 0 de 1 (total elementos=1)
+2025-08-30 15:29:54 [http-nio-8080-exec-5] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /api/providers/paged -> 200 (13 ms)
+2025-08-30 15:29:54 [http-nio-8080-exec-7] INFO  c.e.b.config.security.JwtService - Token válido para el usuario [admin@admin.com]
+2025-08-30 15:29:54 [http-nio-8080-exec-7] INFO  c.e.b.s.logging.RequestLoggingFilter - [GET] /uploads/proveedores/14509d29-1818-4034-8ff2-ac7802cc9ddd.png -> 200 (2 ms)
+2025-08-30 22:17:33 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h47m7s91ms370µs200ns).
+2025-08-30 22:19:10 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s555ms84µs900ns).
